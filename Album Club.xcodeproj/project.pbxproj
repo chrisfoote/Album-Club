@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E15DA2013AAA74200BB7060 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E15DA1F13AAA74200BB7060 /* UIKit.framework */; };
+		7E15DA2213AAA74200BB7060 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E15DA2113AAA74200BB7060 /* Foundation.framework */; };
+		7E15DA2413AAA74200BB7060 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E15DA2313AAA74200BB7060 /* CoreGraphics.framework */; };
+		7E15DA2A13AAA74200BB7060 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA2813AAA74200BB7060 /* InfoPlist.strings */; };
+		7E15DA2C13AAA74200BB7060 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DA2B13AAA74200BB7060 /* main.m */; };
+		7E15DA3013AAA74200BB7060 /* Album_ClubAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DA2F13AAA74200BB7060 /* Album_ClubAppDelegate.m */; };
+		7E15DA3313AAA74200BB7060 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA3113AAA74200BB7060 /* MainWindow.xib */; };
+		7E15DA3613AAA74200BB7060 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DA3513AAA74200BB7060 /* FirstViewController.m */; };
+		7E15DA3913AAA74200BB7060 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DA3813AAA74200BB7060 /* SecondViewController.m */; };
+		7E15DA3C13AAA74200BB7060 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA3A13AAA74200BB7060 /* FirstView.xib */; };
+		7E15DA3F13AAA74200BB7060 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA3D13AAA74200BB7060 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E15DA1B13AAA74200BB7060 /* Album Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Album Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E15DA1F13AAA74200BB7060 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E15DA2113AAA74200BB7060 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E15DA2313AAA74200BB7060 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E15DA2713AAA74200BB7060 /* Album Club-Info.plist */ = {isa = PBXFileReference; path = "Album Club-Info.plist"; sourceTree = "<group>"; };
+		7E15DA2913AAA74200BB7060 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E15DA2B13AAA74200BB7060 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E15DA2D13AAA74200BB7060 /* Album Club-Prefix.pch */ = {isa = PBXFileReference; path = "Album Club-Prefix.pch"; sourceTree = "<group>"; };
+		7E15DA2E13AAA74200BB7060 /* Album_ClubAppDelegate.h */ = {isa = PBXFileReference; path = Album_ClubAppDelegate.h; sourceTree = "<group>"; };
+		7E15DA2F13AAA74200BB7060 /* Album_ClubAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Album_ClubAppDelegate.m; sourceTree = "<group>"; };
+		7E15DA3213AAA74200BB7060 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7E15DA3413AAA74200BB7060 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		7E15DA3513AAA74200BB7060 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7E15DA3713AAA74200BB7060 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		7E15DA3813AAA74200BB7060 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7E15DA3B13AAA74200BB7060 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		7E15DA3E13AAA74200BB7060 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E15DA1813AAA74200BB7060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E15DA2013AAA74200BB7060 /* UIKit.framework in Frameworks */,
+				7E15DA2213AAA74200BB7060 /* Foundation.framework in Frameworks */,
+				7E15DA2413AAA74200BB7060 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E15DA1013AAA74200BB7060 = {
+			isa = PBXGroup;
+			children = (
+				7E15DA2513AAA74200BB7060 /* Album Club */,
+				7E15DA1E13AAA74200BB7060 /* Frameworks */,
+				7E15DA1C13AAA74200BB7060 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E15DA1C13AAA74200BB7060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E15DA1B13AAA74200BB7060 /* Album Club.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E15DA1E13AAA74200BB7060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E15DA1F13AAA74200BB7060 /* UIKit.framework */,
+				7E15DA2113AAA74200BB7060 /* Foundation.framework */,
+				7E15DA2313AAA74200BB7060 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E15DA2513AAA74200BB7060 /* Album Club */ = {
+			isa = PBXGroup;
+			children = (
+				7E15DA2E13AAA74200BB7060 /* Album_ClubAppDelegate.h */,
+				7E15DA2F13AAA74200BB7060 /* Album_ClubAppDelegate.m */,
+				7E15DA3113AAA74200BB7060 /* MainWindow.xib */,
+				7E15DA3413AAA74200BB7060 /* FirstViewController.h */,
+				7E15DA3513AAA74200BB7060 /* FirstViewController.m */,
+				7E15DA3713AAA74200BB7060 /* SecondViewController.h */,
+				7E15DA3813AAA74200BB7060 /* SecondViewController.m */,
+				7E15DA3A13AAA74200BB7060 /* FirstView.xib */,
+				7E15DA3D13AAA74200BB7060 /* SecondView.xib */,
+				7E15DA2613AAA74200BB7060 /* Supporting Files */,
+			);
+			path = "Album Club";
+			sourceTree = "<group>";
+		};
+		7E15DA2613AAA74200BB7060 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E15DA2713AAA74200BB7060 /* Album Club-Info.plist */,
+				7E15DA2813AAA74200BB7060 /* InfoPlist.strings */,
+				7E15DA2B13AAA74200BB7060 /* main.m */,
+				7E15DA2D13AAA74200BB7060 /* Album Club-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E15DA1A13AAA74200BB7060 /* Album Club */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E15DA4213AAA74200BB7060 /* Build configuration list for PBXNativeTarget "Album Club" */;
+			buildPhases = (
+				7E15DA1713AAA74200BB7060 /* Sources */,
+				7E15DA1813AAA74200BB7060 /* Frameworks */,
+				7E15DA1913AAA74200BB7060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Album Club";
+			productName = "Album Club";
+			productReference = 7E15DA1B13AAA74200BB7060 /* Album Club.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E15DA1213AAA74200BB7060 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7E15DA1513AAA74200BB7060 /* Build configuration list for PBXProject "Album Club" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E15DA1013AAA74200BB7060;
+			productRefGroup = 7E15DA1C13AAA74200BB7060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E15DA1A13AAA74200BB7060 /* Album Club */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E15DA1913AAA74200BB7060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E15DA2A13AAA74200BB7060 /* InfoPlist.strings in Resources */,
+				7E15DA3313AAA74200BB7060 /* MainWindow.xib in Resources */,
+				7E15DA3C13AAA74200BB7060 /* FirstView.xib in Resources */,
+				7E15DA3F13AAA74200BB7060 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E15DA1713AAA74200BB7060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E15DA2C13AAA74200BB7060 /* main.m in Sources */,
+				7E15DA3013AAA74200BB7060 /* Album_ClubAppDelegate.m in Sources */,
+				7E15DA3613AAA74200BB7060 /* FirstViewController.m in Sources */,
+				7E15DA3913AAA74200BB7060 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E15DA2813AAA74200BB7060 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E15DA2913AAA74200BB7060 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E15DA3113AAA74200BB7060 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E15DA3213AAA74200BB7060 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7E15DA3A13AAA74200BB7060 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E15DA3B13AAA74200BB7060 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		7E15DA3D13AAA74200BB7060 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E15DA3E13AAA74200BB7060 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E15DA4013AAA74200BB7060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E15DA4113AAA74200BB7060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E15DA4313AAA74200BB7060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Album Club/Album Club-Prefix.pch";
+				INFOPLIST_FILE = "Album Club/Album Club-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E15DA4413AAA74200BB7060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Album Club/Album Club-Prefix.pch";
+				INFOPLIST_FILE = "Album Club/Album Club-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E15DA1513AAA74200BB7060 /* Build configuration list for PBXProject "Album Club" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E15DA4013AAA74200BB7060 /* Debug */,
+				7E15DA4113AAA74200BB7060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E15DA4213AAA74200BB7060 /* Build configuration list for PBXNativeTarget "Album Club" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E15DA4313AAA74200BB7060 /* Debug */,
+				7E15DA4413AAA74200BB7060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E15DA1213AAA74200BB7060 /* Project object */;
+}
