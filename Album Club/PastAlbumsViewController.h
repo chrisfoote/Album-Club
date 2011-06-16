@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  PastAlbumsViewController.h
 //  Album Club
 //
 //  Created by Cameron Cooke on 16/06/2011.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface PastAlbumsViewController : UIViewController
 
 @end

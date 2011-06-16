@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  CurrentAlbumsViewController.h
 //  Album Club
 //
 //  Created by Cameron Cooke on 16/06/2011.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface CurrentAlbumsViewController : UIViewController
 
 @end

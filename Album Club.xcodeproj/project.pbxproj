@@ -14,10 +14,29 @@
 		7E15DA2C13AAA74200BB7060 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DA2B13AAA74200BB7060 /* main.m */; };
 		7E15DA3013AAA74200BB7060 /* Album_ClubAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DA2F13AAA74200BB7060 /* Album_ClubAppDelegate.m */; };
 		7E15DA3313AAA74200BB7060 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA3113AAA74200BB7060 /* MainWindow.xib */; };
-		7E15DA3613AAA74200BB7060 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DA3513AAA74200BB7060 /* FirstViewController.m */; };
-		7E15DA3913AAA74200BB7060 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DA3813AAA74200BB7060 /* SecondViewController.m */; };
-		7E15DA3C13AAA74200BB7060 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA3A13AAA74200BB7060 /* FirstView.xib */; };
-		7E15DA3F13AAA74200BB7060 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA3D13AAA74200BB7060 /* SecondView.xib */; };
+		7E15DA6313AAAFEE00BB7060 /* CurrentAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DA6113AAAFEE00BB7060 /* CurrentAlbumsViewController.m */; };
+		7E15DA6413AAAFEE00BB7060 /* CurrentAlbumsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA6213AAAFEE00BB7060 /* CurrentAlbumsView.xib */; };
+		7E15DA6913AAB01300BB7060 /* PastAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DA6713AAB01300BB7060 /* PastAlbumsViewController.m */; };
+		7E15DA6A13AAB01300BB7060 /* PastAlbumsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA6813AAB01300BB7060 /* PastAlbumsView.xib */; };
+		7E15DA6E13AAB02200BB7060 /* RateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DA6C13AAB02200BB7060 /* RateViewController.m */; };
+		7E15DA6F13AAB02200BB7060 /* RateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA6D13AAB02200BB7060 /* RateView.xib */; };
+		7E15DA7313AAB03300BB7060 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DA7113AAB03300BB7060 /* FavoritesViewController.m */; };
+		7E15DA7413AAB03300BB7060 /* FavoritesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA7213AAB03300BB7060 /* FavoritesView.xib */; };
+		7E15DA7813AAB04000BB7060 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DA7613AAB04000BB7060 /* UsersViewController.m */; };
+		7E15DA7913AAB04000BB7060 /* UsersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA7713AAB04000BB7060 /* UsersView.xib */; };
+		7E15DAA413AAB28C00BB7060 /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA9713AAB28C00BB7060 /* 11-clock.png */; };
+		7E15DAA513AAB28C00BB7060 /* 11-clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA9813AAB28C00BB7060 /* 11-clock@2x.png */; };
+		7E15DAA613AAB28C00BB7060 /* 15-tags.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA9913AAB28C00BB7060 /* 15-tags.png */; };
+		7E15DAA713AAB28C00BB7060 /* 15-tags@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA9A13AAB28C00BB7060 /* 15-tags@2x.png */; };
+		7E15DAA813AAB28C00BB7060 /* 29-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA9B13AAB28C00BB7060 /* 29-heart.png */; };
+		7E15DAA913AAB28C00BB7060 /* 29-heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA9C13AAB28C00BB7060 /* 29-heart@2x.png */; };
+		7E15DAAA13AAB28C00BB7060 /* 85-trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA9D13AAB28C00BB7060 /* 85-trophy.png */; };
+		7E15DAAB13AAB28C00BB7060 /* 85-trophy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA9E13AAB28C00BB7060 /* 85-trophy@2x.png */; };
+		7E15DAAC13AAB28C00BB7060 /* 117-todo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DA9F13AAB28C00BB7060 /* 117-todo.png */; };
+		7E15DAAD13AAB28C00BB7060 /* 117-todo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DAA013AAB28C00BB7060 /* 117-todo@2x.png */; };
+		7E15DAAE13AAB28C00BB7060 /* 120-headphones.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DAA113AAB28C00BB7060 /* 120-headphones.png */; };
+		7E15DAAF13AAB28C00BB7060 /* 120-headphones@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DAA213AAB28C00BB7060 /* 120-headphones@2x.png */; };
+		7E15DAB013AAB28C00BB7060 /* multi-agents.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15DAA313AAB28C00BB7060 /* multi-agents.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +51,34 @@
 		7E15DA2E13AAA74200BB7060 /* Album_ClubAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Album_ClubAppDelegate.h; sourceTree = "<group>"; };
 		7E15DA2F13AAA74200BB7060 /* Album_ClubAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Album_ClubAppDelegate.m; sourceTree = "<group>"; };
 		7E15DA3213AAA74200BB7060 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		7E15DA3413AAA74200BB7060 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		7E15DA3513AAA74200BB7060 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		7E15DA3713AAA74200BB7060 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		7E15DA3813AAA74200BB7060 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		7E15DA3B13AAA74200BB7060 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		7E15DA3E13AAA74200BB7060 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		7E15DA6013AAAFEE00BB7060 /* CurrentAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentAlbumsViewController.h; sourceTree = "<group>"; };
+		7E15DA6113AAAFEE00BB7060 /* CurrentAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentAlbumsViewController.m; sourceTree = "<group>"; };
+		7E15DA6213AAAFEE00BB7060 /* CurrentAlbumsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CurrentAlbumsView.xib; path = "Album Club/CurrentAlbumsView.xib"; sourceTree = "<group>"; };
+		7E15DA6613AAB01300BB7060 /* PastAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PastAlbumsViewController.h; sourceTree = "<group>"; };
+		7E15DA6713AAB01300BB7060 /* PastAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PastAlbumsViewController.m; sourceTree = "<group>"; };
+		7E15DA6813AAB01300BB7060 /* PastAlbumsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PastAlbumsView.xib; path = "Album Club/PastAlbumsView.xib"; sourceTree = "<group>"; };
+		7E15DA6B13AAB02200BB7060 /* RateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateViewController.h; sourceTree = "<group>"; };
+		7E15DA6C13AAB02200BB7060 /* RateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateViewController.m; sourceTree = "<group>"; };
+		7E15DA6D13AAB02200BB7060 /* RateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RateView.xib; path = "Album Club/RateView.xib"; sourceTree = "<group>"; };
+		7E15DA7013AAB03300BB7060 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		7E15DA7113AAB03300BB7060 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		7E15DA7213AAB03300BB7060 /* FavoritesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FavoritesView.xib; path = "Album Club/FavoritesView.xib"; sourceTree = "<group>"; };
+		7E15DA7513AAB04000BB7060 /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
+		7E15DA7613AAB04000BB7060 /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
+		7E15DA7713AAB04000BB7060 /* UsersView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UsersView.xib; path = "Album Club/UsersView.xib"; sourceTree = "<group>"; };
+		7E15DA9713AAB28C00BB7060 /* 11-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "11-clock.png"; path = "Album Club/images/11-clock.png"; sourceTree = "<group>"; };
+		7E15DA9813AAB28C00BB7060 /* 11-clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "11-clock@2x.png"; path = "Album Club/images/11-clock@2x.png"; sourceTree = "<group>"; };
+		7E15DA9913AAB28C00BB7060 /* 15-tags.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "15-tags.png"; path = "Album Club/images/15-tags.png"; sourceTree = "<group>"; };
+		7E15DA9A13AAB28C00BB7060 /* 15-tags@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "15-tags@2x.png"; path = "Album Club/images/15-tags@2x.png"; sourceTree = "<group>"; };
+		7E15DA9B13AAB28C00BB7060 /* 29-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "29-heart.png"; path = "Album Club/images/29-heart.png"; sourceTree = "<group>"; };
+		7E15DA9C13AAB28C00BB7060 /* 29-heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "29-heart@2x.png"; path = "Album Club/images/29-heart@2x.png"; sourceTree = "<group>"; };
+		7E15DA9D13AAB28C00BB7060 /* 85-trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "85-trophy.png"; path = "Album Club/images/85-trophy.png"; sourceTree = "<group>"; };
+		7E15DA9E13AAB28C00BB7060 /* 85-trophy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "85-trophy@2x.png"; path = "Album Club/images/85-trophy@2x.png"; sourceTree = "<group>"; };
+		7E15DA9F13AAB28C00BB7060 /* 117-todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "117-todo.png"; path = "Album Club/images/117-todo.png"; sourceTree = "<group>"; };
+		7E15DAA013AAB28C00BB7060 /* 117-todo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "117-todo@2x.png"; path = "Album Club/images/117-todo@2x.png"; sourceTree = "<group>"; };
+		7E15DAA113AAB28C00BB7060 /* 120-headphones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "120-headphones.png"; path = "Album Club/images/120-headphones.png"; sourceTree = "<group>"; };
+		7E15DAA213AAB28C00BB7060 /* 120-headphones@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "120-headphones@2x.png"; path = "Album Club/images/120-headphones@2x.png"; sourceTree = "<group>"; };
+		7E15DAA313AAB28C00BB7060 /* multi-agents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "multi-agents.png"; path = "Album Club/images/multi-agents.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +127,8 @@
 			children = (
 				7E15DA2E13AAA74200BB7060 /* Album_ClubAppDelegate.h */,
 				7E15DA2F13AAA74200BB7060 /* Album_ClubAppDelegate.m */,
-				7E15DA3113AAA74200BB7060 /* MainWindow.xib */,
-				7E15DA3413AAA74200BB7060 /* FirstViewController.h */,
-				7E15DA3513AAA74200BB7060 /* FirstViewController.m */,
-				7E15DA3713AAA74200BB7060 /* SecondViewController.h */,
-				7E15DA3813AAA74200BB7060 /* SecondViewController.m */,
-				7E15DA3A13AAA74200BB7060 /* FirstView.xib */,
-				7E15DA3D13AAA74200BB7060 /* SecondView.xib */,
+				7E15DA7B13AAB09B00BB7060 /* View Controllers */,
+				7E15DA4513AAA9D000BB7060 /* Resources */,
 				7E15DA2613AAA74200BB7060 /* Supporting Files */,
 			);
 			path = "Album Club";
@@ -107,6 +143,58 @@
 				7E15DA2D13AAA74200BB7060 /* Album Club-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E15DA4513AAA9D000BB7060 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E15DA7A13AAB05A00BB7060 /* images */,
+				7E15DA6213AAAFEE00BB7060 /* CurrentAlbumsView.xib */,
+				7E15DA6813AAB01300BB7060 /* PastAlbumsView.xib */,
+				7E15DA6D13AAB02200BB7060 /* RateView.xib */,
+				7E15DA7213AAB03300BB7060 /* FavoritesView.xib */,
+				7E15DA7713AAB04000BB7060 /* UsersView.xib */,
+				7E15DA3113AAA74200BB7060 /* MainWindow.xib */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7E15DA7A13AAB05A00BB7060 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7E15DA9713AAB28C00BB7060 /* 11-clock.png */,
+				7E15DA9813AAB28C00BB7060 /* 11-clock@2x.png */,
+				7E15DA9913AAB28C00BB7060 /* 15-tags.png */,
+				7E15DA9A13AAB28C00BB7060 /* 15-tags@2x.png */,
+				7E15DA9B13AAB28C00BB7060 /* 29-heart.png */,
+				7E15DA9C13AAB28C00BB7060 /* 29-heart@2x.png */,
+				7E15DA9D13AAB28C00BB7060 /* 85-trophy.png */,
+				7E15DA9E13AAB28C00BB7060 /* 85-trophy@2x.png */,
+				7E15DA9F13AAB28C00BB7060 /* 117-todo.png */,
+				7E15DAA013AAB28C00BB7060 /* 117-todo@2x.png */,
+				7E15DAA113AAB28C00BB7060 /* 120-headphones.png */,
+				7E15DAA213AAB28C00BB7060 /* 120-headphones@2x.png */,
+				7E15DAA313AAB28C00BB7060 /* multi-agents.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		7E15DA7B13AAB09B00BB7060 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E15DA6013AAAFEE00BB7060 /* CurrentAlbumsViewController.h */,
+				7E15DA6113AAAFEE00BB7060 /* CurrentAlbumsViewController.m */,
+				7E15DA6613AAB01300BB7060 /* PastAlbumsViewController.h */,
+				7E15DA6713AAB01300BB7060 /* PastAlbumsViewController.m */,
+				7E15DA6B13AAB02200BB7060 /* RateViewController.h */,
+				7E15DA6C13AAB02200BB7060 /* RateViewController.m */,
+				7E15DA7013AAB03300BB7060 /* FavoritesViewController.h */,
+				7E15DA7113AAB03300BB7060 /* FavoritesViewController.m */,
+				7E15DA7513AAB04000BB7060 /* UsersViewController.h */,
+				7E15DA7613AAB04000BB7060 /* UsersViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,8 +246,24 @@
 			files = (
 				7E15DA2A13AAA74200BB7060 /* InfoPlist.strings in Resources */,
 				7E15DA3313AAA74200BB7060 /* MainWindow.xib in Resources */,
-				7E15DA3C13AAA74200BB7060 /* FirstView.xib in Resources */,
-				7E15DA3F13AAA74200BB7060 /* SecondView.xib in Resources */,
+				7E15DA6413AAAFEE00BB7060 /* CurrentAlbumsView.xib in Resources */,
+				7E15DA6A13AAB01300BB7060 /* PastAlbumsView.xib in Resources */,
+				7E15DA6F13AAB02200BB7060 /* RateView.xib in Resources */,
+				7E15DA7413AAB03300BB7060 /* FavoritesView.xib in Resources */,
+				7E15DA7913AAB04000BB7060 /* UsersView.xib in Resources */,
+				7E15DAA413AAB28C00BB7060 /* 11-clock.png in Resources */,
+				7E15DAA513AAB28C00BB7060 /* 11-clock@2x.png in Resources */,
+				7E15DAA613AAB28C00BB7060 /* 15-tags.png in Resources */,
+				7E15DAA713AAB28C00BB7060 /* 15-tags@2x.png in Resources */,
+				7E15DAA813AAB28C00BB7060 /* 29-heart.png in Resources */,
+				7E15DAA913AAB28C00BB7060 /* 29-heart@2x.png in Resources */,
+				7E15DAAA13AAB28C00BB7060 /* 85-trophy.png in Resources */,
+				7E15DAAB13AAB28C00BB7060 /* 85-trophy@2x.png in Resources */,
+				7E15DAAC13AAB28C00BB7060 /* 117-todo.png in Resources */,
+				7E15DAAD13AAB28C00BB7060 /* 117-todo@2x.png in Resources */,
+				7E15DAAE13AAB28C00BB7060 /* 120-headphones.png in Resources */,
+				7E15DAAF13AAB28C00BB7060 /* 120-headphones@2x.png in Resources */,
+				7E15DAB013AAB28C00BB7060 /* multi-agents.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +276,11 @@
 			files = (
 				7E15DA2C13AAA74200BB7060 /* main.m in Sources */,
 				7E15DA3013AAA74200BB7060 /* Album_ClubAppDelegate.m in Sources */,
-				7E15DA3613AAA74200BB7060 /* FirstViewController.m in Sources */,
-				7E15DA3913AAA74200BB7060 /* SecondViewController.m in Sources */,
+				7E15DA6313AAAFEE00BB7060 /* CurrentAlbumsViewController.m in Sources */,
+				7E15DA6913AAB01300BB7060 /* PastAlbumsViewController.m in Sources */,
+				7E15DA6E13AAB02200BB7060 /* RateViewController.m in Sources */,
+				7E15DA7313AAB03300BB7060 /* FavoritesViewController.m in Sources */,
+				7E15DA7813AAB04000BB7060 /* UsersViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,22 +301,7 @@
 				7E15DA3213AAA74200BB7060 /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		7E15DA3A13AAA74200BB7060 /* FirstView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E15DA3B13AAA74200BB7060 /* en */,
-			);
-			name = FirstView.xib;
-			sourceTree = "<group>";
-		};
-		7E15DA3D13AAA74200BB7060 /* SecondView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E15DA3E13AAA74200BB7060 /* en */,
-			);
-			name = SecondView.xib;
+			path = "Album Club";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
