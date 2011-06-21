@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CurrentAlbumsViewController : UIViewController
+@interface CurrentAlbumsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+    NSMutableArray *albums;
+    UITableView *tv;
+}
+@property (nonatomic, retain) IBOutlet UITableView *tv;
 
 @end
