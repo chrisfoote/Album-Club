@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PastAlbumsViewController : UIViewController
+@interface PastAlbumsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+    NSMutableArray *albums;
+    UITableView *tv;
+}
+
+@property (nonatomic, retain) IBOutlet UITableView *tv;
 
 @end

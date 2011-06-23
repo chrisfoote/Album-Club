@@ -17,7 +17,7 @@
     self = [super initWithCoder:aDecoder];
     if (self) {
         // Custom initialization
-        NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost/albumclub/current"]];
+        NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.myalbumclub.co.uk/webservices/current"]];
         [[NSURLConnection alloc] initWithRequest:request delegate:self];
     }
     return self;    
@@ -89,7 +89,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 150;
+    return 55;
 }
 
 #pragma mark - UITableViewDataSource methods
@@ -105,10 +105,14 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier] autorelease];
     }
-    
-    cell.textLabel.text = [[albums objectAtIndex:indexPath.row] valueForKey:@"albumTitle"];
+        
+    cell.textLabel.text = [[albums objectAtIndex:indexPath.row] valueForKey:@"albumTitle"];    
+    cell.detailTextLabel.text = [[albums objectAtIndex:indexPath.row] valueForKey:@"albumArtist"];
+    NSString *albumURL = [NSString stringWithFormat:@"http://www.myalbumclub.co.uk/albumart/small/%@.jpg", [[albums objectAtIndex:indexPath.row] valueForKey:@"albumId"]];
+    UIImage *albumArt = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:albumURL]]];  
+    cell.imageView.image = albumArt;
     
     return cell;
 }
